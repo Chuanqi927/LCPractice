@@ -1,4 +1,4 @@
-package LCPractice;
+package Leetcode;
 
 public class LC416_CanPartition {
     class Solution_Brute_Force {

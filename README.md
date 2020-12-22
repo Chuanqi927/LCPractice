@@ -1,2 +1,2 @@
-# LCPractice
+# Leetcode
 Just Leetcode practice

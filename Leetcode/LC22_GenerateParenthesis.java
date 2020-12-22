@@ -1,4 +1,4 @@
-package LCPractice;
+package Leetcode;
 
 import java.util.*;
 

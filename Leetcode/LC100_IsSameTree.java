@@ -1,4 +1,4 @@
-package LCPractice;
+package Leetcode;
 
 public class LC100_IsSameTree {
     
