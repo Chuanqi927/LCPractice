@@ -1,5 +1,4 @@
-package Leetcode;
-import Leetcode.TreeNode;
+package Leetcode.Tree;
 
 public class LC100_IsSameTree {
     class Solution {

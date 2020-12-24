@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.DynamicProgramming;
 
 public class LC416_CanPartition {
     class Solution_Brute_Force {

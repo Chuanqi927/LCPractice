@@ -1,5 +1,4 @@
-package Leetcode;
-import Leetcode.TreeNode;
+package Leetcode.Tree;
 
 public class LC110_BalancedBinaryTree {
     class Solution {

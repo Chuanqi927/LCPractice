@@ -1,6 +1,7 @@
-package Leetcode;
-import Leetcode.TreeNode;
-import java.util.*;
+package Leetcode.Tree;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class LC1602_FindNearestRightNodeInBinaryTree {
     class DFS_Preorder_Solution {
