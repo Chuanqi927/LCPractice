@@ -1,4 +1,4 @@
-package Leetcode.LinkedList;
+package leetcode.LinkedList;
 
 public class LC24_SwapNodesInPairs {
     class Solution {

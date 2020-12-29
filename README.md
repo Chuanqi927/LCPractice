@@ -1,2 +1,2 @@
-# Leetcode Practice
-Just Leetcode practice, what do you expect? XD
+# leetcode Practice
+Just leetcode practice, what do you expect? XD

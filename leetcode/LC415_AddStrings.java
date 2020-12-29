@@ -1,4 +1,4 @@
-package Leetcode;
+package leetcode;
 
 public class LC415_AddStrings {
     class Solution {

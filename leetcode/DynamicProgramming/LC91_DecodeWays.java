@@ -1,4 +1,4 @@
-package Leetcode.DynamicProgramming;
+package leetcode.DynamicProgramming;
 
 import java.util.HashMap;
 

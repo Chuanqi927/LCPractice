@@ -1,4 +1,4 @@
-package Leetcode.Tree;
+package leetcode.Tree;
 
 public class LC110_BalancedBinaryTree {
     class Solution {
@@ -9,7 +9,9 @@ public class LC110_BalancedBinaryTree {
         }
 
         private int getHeight(TreeNode node) {
-            if (node == null) return 0;
+            if (node == null) {
+                return 0;
+            }
 
             int left = getHeight(node.left);
             int right = getHeight(node.right);

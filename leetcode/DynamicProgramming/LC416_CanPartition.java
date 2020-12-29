@@ -1,4 +1,4 @@
-package Leetcode.DynamicProgramming;
+package leetcode.DynamicProgramming;
 
 public class LC416_CanPartition {
     class Solution_Brute_Force {
@@ -8,7 +8,9 @@ public class LC416_CanPartition {
                 totalSum+=num;
             }
 //            check if totalSum is not even
-            if(totalSum%2!=0)   return false;
+            if(totalSum%2!=0) {
+                return false;
+            }
 
             int subsetSum = totalSum/2;
             int length = nums.length;
@@ -17,8 +19,12 @@ public class LC416_CanPartition {
         }
 
         public boolean dfs(int[] nums, int length, int subsetSum){
-            if(subsetSum==0)    return true;
-            if(length==0 || subsetSum<0)    return false;
+            if(subsetSum==0) {
+                return true;
+            }
+            if(length==0 || subsetSum<0) {
+                return false;
+            }
 //            for each element x in nums, check if it is in the subset
 //            if yes, subsetSum = subsetSum - x
 //            if no, subsetSum = subsetSum
@@ -41,12 +47,14 @@ public class LC416_CanPartition {
                 totalSum+=num;
             }
 //            check if totalSum is not even
-            if(totalSum%2!=0)   return false;
+            if(totalSum%2!=0) {
+                return false;
+            }
 
             int subsetSum = totalSum/2;
             int length = nums.length;
 
-            boolean dp[][] = new boolean[length+1][subsetSum+1];
+            boolean[][] dp = new boolean[length+1][subsetSum+1];
             dp[0][0] = true;
             for(int i=1; i<dp.length; i++){
                 int current = nums[i-1];

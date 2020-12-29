@@ -1,4 +1,4 @@
-package Leetcode.Mathmeticals;
+package leetcode.Mathmeticals;
 
 public class LC754_ReachANumber {
 //Step 0:
@@ -24,6 +24,7 @@ public class LC754_ReachANumber {
 //Step 2.2: We need to increase step by 2 to get an even difference (i.e. 1 + 2 + 3 + 4 + 5 = 15, now step = 5, difference = 15 - 5 = 10).
 // Now that we have an even difference, we can simply switch any move to the left (i.e. change + to -) as long as the summation of the changed value equals to half of the difference.
 // We can switch 1 and 4 or 2 and 3 or 5.
+
 class Solution {
     public int reachNumber(int target) {
         target = Math.abs(target);

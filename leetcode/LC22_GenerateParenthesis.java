@@ -1,4 +1,4 @@
-package Leetcode;
+package leetcode;
 
 import java.util.*;
 
@@ -16,10 +16,12 @@ public class LC22_GenerateParenthesis {
                 return;
             }
 
-            if (open < max)
+            if (open < max) {
                 backtrack(ans, cur+"(", open+1, close, max);
-            if (close < open)
+            }
+            if (close < open) {
                 backtrack(ans, cur+")", open, close+1, max);
+            }
         }
     }
 }
