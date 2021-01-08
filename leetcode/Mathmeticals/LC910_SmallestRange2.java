@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Mathmeticals;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Mathmeticals;
 
 public class LC908_SmallestRange1 {
     class Solution {
